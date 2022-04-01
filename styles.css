@@ -138,6 +138,8 @@ body{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
+    max-width: 1200px;
+    margin: auto;
 }
 
 @media(max-width: 1200px){
